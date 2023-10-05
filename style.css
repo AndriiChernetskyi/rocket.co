@@ -1,33 +1,43 @@
+.layout {
+    max-width: 1440px;
+    /* Consider using max-width instead of fixed width */
+    height: 6930px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
-
-nav {
+.Header {
     background-color: #333;
     color: white;
-    padding: 0.5em;
+    padding: 10px 20px;
+    width: 100%;
+    /* Use 100% or max-width for responsiveness */
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 20px;
 }
 
-nav ul li a {
+.head_icon img {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    /* Push the icon to the right */
+}
+
+nav ul li span {
     color: white;
     text-decoration: none;
 }
