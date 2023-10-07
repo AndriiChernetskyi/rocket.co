@@ -1,0 +1,197 @@
+.layout {
+    background: #F3EFEA;
+        width: auto;
+        height: auto; /* or remove the height property entirely */
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+}
+
+.head_icon img {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+}
+.Header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    
+}
+
+.Header ul li {
+    width: 20%;
+    margin-right: 20px; /* Adjust the spacing between navigation items as needed */
+}
+
+.first {
+    background: #F3EFEA;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    
+}
+
+.row {
+    display: flex;
+    width: 719px;
+    height: 774px;
+}
+.row-img{
+    width: 719px;
+    height: 774px;
+   
+}
+.row1 {
+    display: flex;
+    width: 719px;
+    height: 774px;
+    background: #F3EFEA;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.p1 {
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.p2 {
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.p3 {
+    color: #323232;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+.button1 {
+    width: 245px;
+    height: 60px;
+    background: #A1B29F;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center text vertically */
+}
+
+.Text_button {
+    /* Text styles */
+   display: flex;
+   
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: white; /* Text color */
+}
+.icons {
+    padding-left: 400px;
+    height: 280px;
+    width: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.images {
+    display: flex;
+    position: relative;
+}
+
+.i_telegram {
+    gap: 35px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Optional: Add margin between icons */
+}
+.whatsapp{
+    gap: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.instagram{
+    gap: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle {
+    position: relative;
+    z-index: 1; /* Set a higher z-index for the circle */
+    gap: 35px;
+    width: 30px;
+    height: 30px;
+    stroke-width: 1px;
+    stroke: #715B4B;
+}
+.circle1 {
+    position: relative;
+    z-index: 1; /* Set a higher z-index for the circle */
+    gap: 35px;
+    width: 30px;
+    height: 30px;
+    stroke-width: 1px;
+    stroke: #715B4B;
+}
+.circle2{
+    position: relative;
+    z-index: 1; /* Set a higher z-index for the circle */
+    gap: 35px;
+    width: 30px;
+    height: 30px;
+    stroke-width: 1px;
+    stroke: #715B4B;
+}
+.telegram-icon {
+    gap: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Set a higher z-index to place this icon above the circle */
+}
+.whatsapp-icon {
+    gap: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 20px; /* Set the desired width */
+    height: 20px; /* Set the desired height */
+}
+
+.instagram-icon {
+    gap: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 20px; /* Set the desired width */
+    height: 20px; /* Set the desired height */
+}
