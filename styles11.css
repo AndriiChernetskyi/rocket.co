@@ -217,24 +217,19 @@
    padding-bottom: 70px;
    margin-left: 130px;
 }
-    .Text_line_group {
-        width: 268px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px; /* Adjust the gap between the text lines */
-    }
+.Text_line_group {
+    width: 268px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between the text lines */
+}
     
 .text_line{
     width: 268px;
+    min-width: 268px;
 }
-.text_line1{
-    width: 268px;
-}
-.text_line2{ 
-    width: 284px;
-    height: 48px;
-}
+
 .txt{
     color: #323232;
     text-align: center;
@@ -244,37 +239,33 @@
     font-weight: 300;
     line-height: 150%; /* 27px */
 }
-.txt1{
-    color: #323232;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 150%; /* 27px */
-}
-.txt2{
-    color: #323232;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 150%; /* 27px */ 
+
+
+.line1,
+.line2,
+.line {
+    background: #715B4B;
+    width: 100%;
+    height: 3px;
 }
 
-.line{
-    background: #715B4B;
-    width: 360px;
-    height: 3px;
+
+.Mood_board {
+    width: 167px;
+    height: 990px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border: 1px solid #000; /* Optional: Adds a border for visualization */
 }
-.line1{
-    background: #715B4B;
-    width: 360px;
-    height: 3px;
-}
-.line2{
-    background: #715B4B;
-    width: 360px;
-    height: 3px;
+
+title{
+    position: absolute;
+    top: 103px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
 }
