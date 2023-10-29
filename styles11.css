@@ -112,18 +112,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; /* Center text vertically */
+
 }
 
 .Text_button {
     /* Text styles */
    display: flex;
-   
+   background: #A1B29F;
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 24px */
-    color: white; /* Text color */
+    border:  none;
+    
 }
 .icons {
     padding-left: 400px;
@@ -298,7 +300,7 @@ body {
     width: 360px;
     height: 3px;
 }
-.txt3{
+.txt3 {
     color: #57463A;
 font-family: Tenor Sans;
 font-size: 48px;
@@ -339,4 +341,84 @@ line-height: 150%; /* 72px */
 .row2{
     display: flex;
     flex-direction: column;
+}
+.txt4{
+    display: flex;
+    justify-content: center;
+    padding-right: 485px;
+    color: #57463A;
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 72px */
+}
+.layout1{
+    width: 1580px;
+    height: 950px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: start;
+} 
+.row3 { 
+        height: 500px; /* Set the desired height for the row */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px; /* Set the desired gap between row3 instances */
+}
+.row4 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+.text_line4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.txt5{
+    margin-right: 13px;
+    color: #000;
+    font-family: Tenor Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.txt6{ 
+    width: 515px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+    padding-top: 25px;
+}
+.txt7{
+    width: 515px;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+    padding-top: 45px;
+}
+.button2{
+    
+    color: #F6F6F6;
+text-align: center;
+/* Text */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
 }
