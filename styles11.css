@@ -23,6 +23,12 @@
 body {
     background: #F3EFEA;
 }
+.border-red {
+    border: 1px solid red;
+}
+.hidden {
+    display: none;
+}
 .head_icon img {
     width: 30px;
     height: 30px;
@@ -496,17 +502,68 @@ flex-direction: column;
 width: 1160px;
 height: 590px;
 border: 7px solid #A1B29F;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
-.gosT-title {
-
-    color: #57463A;
-    justify-content: center;
+.gost-title{
+    width: 658px;
+    margin: 0 auto;
+color: #57463A;
 text-align: center;
+
 /* Title 1 */
 font-family: Tenor Sans;
 font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 72px */
-
+}
+.layout3{
+    padding-top: 300px;
+      width: 1580px;
+    height: 950px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: start;
+}
+.gost1{
+    width: 922px;
+    color: #000;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 36px */
+}
+.logo{
+width: 152.419px;
+height: 150px;
+align-self: flex-end;
+margin-right: 100px;
+}
+.layout4{
+    width: 1440px;
+height: 380px;
+    background: #715B4B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer_line{
+    display: flex;
+    flex-direction: row;
+    color: #F6F6F6;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+}
+.scroll{
+    padding-top: 1px;
 }
